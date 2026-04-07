@@ -1,49 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+#imghere{
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+background-image: url(bb2.avif);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+</style>
+
 </head>
 <body>
-    <div class="box">
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, laudantium consequatur. Dolores quae animi ab distinctio at sapiente maxime, voluptates ullam! Placeat omnis et asperiores a quia alias eligendi porro?</p>
-<img src="./3idiot.jpg" alt="movie">
-    </div>
-    enter name<input type="tex" placeholder="enter name">
-    <br>
-    enter father name <input tepe="tex" placeholder="enter father">
-<br>
-enter email ,<input type="email" placeholder="email">
-<br>
-enter password <input type="password">
-<br>
-<br>
-enter dob  <input type="date">
-<hr>
-male <input type="radio" name="gander" value="male">
-femail<input type="radio" name="gander" value="femail">
-other<input type="radio" name="gander" value="other">
-<table border="3">
-<tr >
-    <th>s.no</th>
-    <th>name</th>
-    <th>last name</th>
-    <th>f name</th>
-    <th>class</th>
-    <tr>
-        <td>1</td>
-        <td>avdhesh roy</td>
-<td>rocky</td>
-        <td>manoj roy</td>
-        <td>Xi</td>
-    </tr>
-      <td></td>
-</tr>
-</table> 
+  
+<h1 id="show"> 0 </h1>
+<button onclick="inc()">inc</button>
+<button onclick="dec()">dec</button>
+
+<div > <img src="3idiot.jpg" alt="movie" width="1000px"   height="500px"  id=" imghere"></div>
+<button onclick="changeimg()">changeimg</button>
 
 
 
-    
+
+  <script src="index.js"></script>
 </body>
 </html>
