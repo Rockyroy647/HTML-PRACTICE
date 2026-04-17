@@ -1,18 +1,17 @@
+let validation=()=>{
+    let name = document.querySelector('#username').value.trim()
+ 
 
-let count = 0;
 
-function inc(){
-count++;
-document.getElementById("show").innerText = count;
+
+let errname = document.querySelector('#errname')
+
+
+if (name = ""){
+    errname.innerHTML ="please enter valid name "
+    return false
 }
-function dec(){
-count--;
-document.getElementById("show").innerText = count;
+
 }
 
 
-
-let changeimg = () =>{
-    let divtag = document.querySelector('#imghere')
-    divtag.computedStyleMap.backgroundimage= "url(bb2.avif)"
-}

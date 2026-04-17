@@ -3,61 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>cricket game</title>
-<style>
-  body{
-    text-align: center;
-    background-color: rgb(66, 64, 64);
-    color: white;
-    margin-top: 50px;
-  }
-  #roy1{
-    
-    gap: 50px;
-  }
-  
-</style>
-
-
+  <title>Document</title>
 </head>
 <body>
+  <form>
+ enter namm=<input type="text" id="username">
+ <p id="errname"></p>
+ enter phone number <input type="text" id="num">
+ <p id="errphone"></p>
+ enter email <input type="text" id="usergmail">
+ <p id="errgmail"></p>
+ enter password <input type="text" id="userpass">
+ <p id="errpass"></p>
+ conform password <input type="text" id="usercpass">
+ <p id="errcpass"></p>
+ <input type="submit" id="sub" onclick="return Valiation()" >
 
-<input type="number" id="roy" placeholder="123......" >
-<input type="number" id="roy1" >
-
-<br> <br> <br>
-<button onclick="add()">+ add</button>
-<button onclick="subtract()">- sub </button>
-<button onclick="multiply()">* mult''' </button>
-
-
-
-<h1 id="screen=">  app ka computer screen par</h1>
-  <script>
-function add(){
-  let a =Number(document.getAnimations("roy").value);
-  let b =Number(document.getAnimations("roy1").value);
-  document.getElementById("screen=").innerText = " screen=" +(a+b);
-
-}
-
-function subtract(){
-  let a = Number(document.getElementById("roy").value);
-  let b = Number(document.getElementById("roy1").value);
-  document.getElementById("screen=").innerText ="screen=" +(a-b);
-}
-function multiply(){
-  let a = Number(document.getElementById("roy").value);
-  let b = Number(document.getElementById("roy1").value);
-  document.getElementById("screen=").innerText ="screen=" +(a*b);
-}
+</form>
 
 
 
-
-  </script>
-  
-    
-  
+<script src="index.js"></script>
 </body>
 </html>
