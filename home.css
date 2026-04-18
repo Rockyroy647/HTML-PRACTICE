@@ -1,20 +1,66 @@
 
-.navbar{
-  border: 2px solid black;
-  display: flex;
-
-
-
-}
-
-ul{
-  display: flex;
-  gap: 20px;
-  text-align: center;
-color: white;
-justify-content: space-between;
+*{
+  margin: 0;
+  padding: 0;
+  overflow-y: auto; 
 }
 a{
   text-decoration: none;
+}
+h2{
+  margin-left: auto;
+}
+
+.cart{
+  display: flex;
+  margin-right: 30px;
+  text-transform: capitalize;
+  color:  white;
+  text-decoration: none;
+  gap: 40px;
+ 
+  
+  
   
 }
+.nave{
+  display: flex; 
+ text-transform: capitalize;
+
+justify-content: space-around;
+ margin-top: 10px;
+ background-color: rgb(28, 27, 27);
+ color: white;
+}
+
+input{
+  width: 160px;
+  
+}
+#photo{
+  height: 600px;
+  width: 100%;
+  
+}
+#radhashyam{
+
+margin-right: auto;
+}
+
+.radhashyam{
+  
+  display: flex;
+ gap: 90px;
+ text-align: center;
+ margin-left: 50px;
+ margin-right: 50%;
+  
+}
+.radhashyam img{
+  width: 200px;
+  
+}
+
+
+  
+  
